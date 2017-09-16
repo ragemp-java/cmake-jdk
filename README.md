@@ -1,5 +1,6 @@
 # plugin-build-image
-[![CircleCI](https://circleci.com/gh/ragemp-java/plugin-build-image.svg?style=svg)](https://circleci.com/gh/ragemp-java/plugin-build-image)
+
+https://hub.docker.com/r/noxaro/cmake-jdk/
 
 Docker image to build the server plugin without a big overhead.
 
