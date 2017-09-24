@@ -8,7 +8,7 @@ RUN apt-get -y install openjdk-8-jdk cmake gcc build-essential wget unzip
 RUN mkdir /sonarqube
 RUN wget https://sonarsource.bintray.com/Distribution/sonar-scanner-cli/sonar-scanner-cli-3.0.3.778-linux.zip -P /sonarqube
 RUN wget https://sonarcloud.io/static/cpp/build-wrapper-linux-x86.zip -P /sonarqube
-RUN unzip /sonarqubebuild-wrapper-linux-x86.zip -d /sonarqube
-RUN unzip /sonarqubesonar-scanner-cli-3.0.3.778-linux.zip -d /sonarqube
+RUN unzip /sonarqub/ebuild-wrapper-linux-x86.zip -d /sonarqube
+RUN unzip /sonarqube/sonar-scanner-cli-3.0.3.778-linux.zip -d /sonarqube
 
 ENV PATH="/sonarqube/build-wrapper-linux-x86/:/sonarqube/sonar-scanner-3.0.3.778-linux/bin:${PATH}"
