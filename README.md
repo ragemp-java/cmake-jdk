@@ -9,4 +9,4 @@ It contains a debian 9 as base image and on top of it:
 * cmake 
 * gcc 
 * build-essential 
- 
+* sonarqube scanner
